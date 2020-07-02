@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio Aula 4 - Parte 2</title>
+
+
+    <style>
+        body{
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            font-display: inherit;
+            line-height: 0;
+
+        }
+        #div1{
+            background-color: blue;
+            height: 10vh;
+
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+
+            color: white;  
+            font-weight: bolder;
+        }
+
+        #div1 div.imagem{
+            margin: 20px;
+            height: 50%;
+            width: 7%;
+        }
+
+
+
+        #div2{
+            margin: 15px;
+            height: 40vh;
+
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            align-items: center;
+        }
+
+        img{
+            height: 100%;
+            width: 100%;
+        }
+
+
+        #div3{
+            margin: 15px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            
+        }
+        #div3 div.info-2{
+            text-align: end;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="div1">
+        <div class="imagem">
+            <img src="menu.png">
+        </div>
+
+        <div><h3>Projeto</h3></div>
+    
+    </div>
+
+    <div id="div2"><img src="teste.jpg"></div>
+
+    <div id="div3">
+        <div class="info-1">
+            <p><h5>Cabo Frio - RJ</h5></p>
+            <p><h5>João Garcia</h5></p>
+        </div>
+
+        <div class="info-2">
+            <p><h5>R$5.000,000</h5></p>
+            <p></p><h5>Venda</h5></p>
+        </div>
+    </div>
+
+</body>
+</html>

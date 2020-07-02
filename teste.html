@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio Aula 4 - Parte 2</title>
+
+
+    <style>
+        body{
+            margin: 0;
+        }
+        #div1{
+            background-color: red;
+            height: 25vh;
+
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+        }
+        #div2{
+            background-color: orangered;
+            height: 25vh;
+
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            align-items: center;
+        }
+        #div3{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        #div3 div{
+            height: 12vh;
+        }
+
+        #div3 div.info-1{
+            background-color: yellow;
+        }
+
+        #div3 div.info-2{
+            background-color: green;
+
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #div4{
+            display: flex;
+            flex-direction: row;
+            height: 12vh;
+        }
+
+        #div4 div.info-3{
+            background-color: blue;
+            width: 50%;
+        }
+
+        #div4 div.info-4{
+            background-color: purple;
+            width: 50%;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="div1">Div 1</div>
+
+    <div id="div2">Div 2</div>
+
+    <div id="div3">
+        <div class="info-1">Info 1</div>
+        <div class="info-2">Info 1</div>
+    </div>
+
+    <div id="div4">
+        <div class="info-3">Info 3</div>
+        <div class="info-4">Info 4</div>
+    </div>
+</body>
+</html>
